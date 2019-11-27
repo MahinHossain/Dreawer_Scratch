@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/gradient_color"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="6dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"></ImageView>
+
+
+    <TextView
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    android:padding="7dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Mahin Hossain"
+    android:textSize="19dp"
+    ></TextView>
+
+    <TextView
+        android:padding="7dp"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahin@Gmail.com"
+        android:textSize="19dp"
+        ></TextView>
+</LinearLayout>

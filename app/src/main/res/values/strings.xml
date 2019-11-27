@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dreawer_Scratch</string>
+    <string name="navigation_drawer_open">Drawer open</string>
+    <string name="navigation_drawer_close">Dreawer close</string>
+
+    <string name="title_activity_passenger">Map</string>
+    <string name="title_activity_view_both_location">Map</string>
+</resources>

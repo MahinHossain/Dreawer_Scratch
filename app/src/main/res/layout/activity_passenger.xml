@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:padding="4dp"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        tools:context=".PassengerActivity">
+
+
+    </fragment>
+
+    <Button
+        android:id="@+id/btnrequestingAdoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#87D8DF"
+        android:padding="4dp"
+        android:text=" SEND A REQUEST "></Button>
+
+
+    <Button
+        android:id="@+id/BeepStatusId"
+        android:layout_width="409dp"
+        android:layout_height="52dp"
+
+        android:background="#EB98EE"
+        android:padding="4dp"
+        android:text="Status" />
+
+    <Button
+        android:id="@+id/logoutfrompassengerId"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:background="#989EDA"
+        android:padding="4dp"
+        android:text=" Logout "></Button>
+</LinearLayout>
+
+
